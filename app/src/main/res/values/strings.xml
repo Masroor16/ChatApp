@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ChatApp</string>
+    <string name="welcome_back">Welcome Back,</string>
+    <string name="signin_to_continue">Signin to continue.</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="not_yet_registered">Not yet Registered?</string>
+    <string name="register">Register!</string>
+    <string name="welcome">Welcome,</string>
+    <string name="forgot_your_password">Forgot your password?</string>
+    <string name="user_name">User Name</string>
+    <string name="background">BACKGROUND</string>
+    <string name="splashscreen">SPLASHSCREEN</string>
+    <string name="name">NAME</string>
+    <string name="logout">Logout</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="username">username</string>
+</resources>
