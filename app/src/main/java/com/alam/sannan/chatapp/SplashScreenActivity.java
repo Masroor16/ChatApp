@@ -21,7 +21,7 @@ public class SplashScreenActivity extends AppCompatActivity {
         setContentView(R.layout.activity_splash_screen);
         //this will bind your MainActivity.class file with activity_main.
 
-        int SPLASH_SCREEN_TIME_OUT = 5000;
+        int SPLASH_SCREEN_TIME_OUT = 2000;
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {

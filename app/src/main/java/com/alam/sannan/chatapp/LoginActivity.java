@@ -46,6 +46,14 @@ public class LoginActivity extends AppCompatActivity {
         googleButton = findViewById(R.id.googleButton);
         signinButton = findViewById(R.id.signinButton2);
 
+
+        forgotPassword.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(LoginActivity.this,ResetPasswordActivity.class));
+            }
+        });
+
         signinButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
