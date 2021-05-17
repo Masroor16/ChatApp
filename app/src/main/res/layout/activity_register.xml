@@ -38,6 +38,7 @@
             android:id="@+id/username"
             android:inputType="text"
             android:hint="@string/user_name"
+            android:textColor="#A2A2A2"
             android:paddingStart="16dp"
             android:background="@drawable/edittext_bg"
             android:layout_marginLeft="20dp"
@@ -50,6 +51,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/email"
             android:inputType="textEmailAddress"
+            android:textColor="#A2A2A2"
             android:hint="@string/email"
             android:paddingStart="16dp"
             android:background="@drawable/edittext_bg"
@@ -61,6 +63,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/pass"
             android:inputType="textPassword"
+            android:textColor="#A2A2A2"
             android:hint="@string/password"
             android:paddingStart="16dp"
             android:background="@drawable/edittext_bg"
@@ -75,34 +78,6 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="16dp"
             android:layout_marginLeft="8dp"/>
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/other2"
-            android:layout_gravity="center"
-            android:layout_marginTop="24dp"/>
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_gravity="center"
-            android:layout_marginTop="24dp">
 
-            <ImageView
-                android:id="@+id/facebook"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/facebookicon"
-                android:paddingEnd="28dp"/>
-            <ImageView
-                android:id="@+id/google"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/googleicon"
-                android:paddingStart="28dp"/>
-
-
-
-        </LinearLayout>
     </LinearLayout>
 </RelativeLayout>
